@@ -162,5 +162,3 @@ function parseInt(string) {
 }
 
 parseInt("seven hundred and eighty-nine thousand nine hundred and seventy-nine");
-
-/* https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5/train/javascript */
