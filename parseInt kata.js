@@ -109,7 +109,7 @@ function parseInt(string) {
     .replace(/ and/gi, "")
     .split(" thousand ")
     .map((str, arrN) => {
-      // return nothing if there's no units
+      // return nothing if there's no units just thousands
       if (str === "") return;
       // if for case of only hundreds
       if (str.split("").pop() === "d" && str.split(" ").pop() === "hundred") {
@@ -161,4 +161,4 @@ function parseInt(string) {
   return result;
 }
 
-parseInt("seven hundred and eighty-nine thousand nine hundred and seventy-nine");
+parseInt("seven hundred and eighty-nine thousand one");
