@@ -1,7 +1,7 @@
 // Kata modificado el 31/05/2022
 
 function order(words) {
-  result = [];
+  let result = [];
   // splitting into words
   words.split(" ").map((word) => {
     // splitting into chars to search number
