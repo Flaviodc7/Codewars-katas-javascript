@@ -14,4 +14,3 @@ function order(words) {
   });
   return result.join(" ");
 }
-order("4of Fo1r pe6ople g3ood th5e the2")
