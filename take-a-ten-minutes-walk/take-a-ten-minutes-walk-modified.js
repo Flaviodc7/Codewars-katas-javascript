@@ -2,7 +2,7 @@
 
 function isValidWalk(walk) {
   // if the walk takes more than 10 minutes returning false (1 minute per street)
-  if (walk.length != 10) return false;
+  if (walk.length !== 10) return false;
   let x = 0,
     y = 0;
   // adding or substracting depending on direction
