@@ -5,7 +5,7 @@ function order(words) {
   // splitting into words
   words.split(" ").map((word) => {
     // splitting into chars to search number
-    a.split("").map((char) => {
+    word.split("").map((char) => {
       // if number found assign order
       if (parseInt(char)) {
         result[char - 1] = word;
@@ -14,3 +14,4 @@ function order(words) {
   });
   return result.join(" ");
 }
+order("4of Fo1r pe6ople g3ood th5e the2")
