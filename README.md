@@ -5,7 +5,7 @@ Algunos katas ya resueltos fueron editados, por tanto cree archivos en algunos c
 Aquí está el listado de los Katas resueltos en orden de más reciente a anterior:
 
 [4-kyu] parseInt() reloaded (28/05/2022): <br>
-Enunciado: https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5
+Enunciado: https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5 <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/parseInt-reloaded
 
 [5-kyu] Where my anagrams at? (20/05/2022):
