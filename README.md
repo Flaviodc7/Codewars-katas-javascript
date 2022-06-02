@@ -48,30 +48,30 @@ Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/growth-of-a-pop
 Enunciado: https://www.codewars.com/kata/55c45be3b2079eccff00010f <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/your-order-please
 
-[6-kyu] Take a Ten Minutes Walk (08/12/2021):</b><br>
+<b>[6-kyu] Take a Ten Minutes Walk (08/12/2021):</b><br>
 Enunciado: https://www.codewars.com/kata/54da539698b8a2ad76000228 <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/take-a-ten-minutes-walk
 
-[6-kyu] Array.diff (07/12/2021):</b><br>
+<b>[6-kyu] Array.diff (07/12/2021):</b><br>
 Enunciado: https://www.codewars.com/kata/523f5d21c841566fde000009 <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/array-diff
 
-[7-kyu] Sum of two lowest positive integers (06/12/2021):</b><br>
+<b>[7-kyu] Sum of two lowest positive integers (06/12/2021):</b><br>
 Enunciado: https://www.codewars.com/kata/558fc85d8fd1938afb000014 <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/sum-of-the-lowest-positive-integers
 
-[6-kyu] Find The Parity Outlier (06/12/2021):</b><br>
+<b>[6-kyu] Find The Parity Outlier (06/12/2021):</b><br>
 Enunciado: https://www.codewars.com/kata/5526fc09a1bbd946250002dc <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/find-the-parity-outlier
 
-[7-kyu] Binary Addition (06/12/2021):</b><br>
+<b>[7-kyu] Binary Addition (06/12/2021):</b><br>
 Enunciado: https://www.codewars.com/kata/551f37452ff852b7bd000139 <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/binary-addition
 
-[6-kyu] Duplicate Encoder (06/12/2021):</b><br>
+<b>[6-kyu] Duplicate Encoder (06/12/2021):</b><br>
 Enunciado: https://www.codewars.com/kata/54b42f9314d9229fd6000d9c <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/duplicate-encoder
 
-[8-kyu] Multiply (28/11/2021):</b><br>
+<b>[8-kyu] Multiply (28/11/2021):</b><br>
 Enunciado: https://www.codewars.com/kata/50654ddff44f800200000004 <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/multiply
