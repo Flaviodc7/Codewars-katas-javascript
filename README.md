@@ -28,8 +28,8 @@ Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/the-observed-pi
 Enunciado: https://www.codewars.com/kata/52b7ed099cdc285c300001cd <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/sum-of-intervals
 
-[6-kyu] Who likes it? (10/12/2021)
-Enunciado: https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+[6-kyu] Who likes it? (10/12/2021) <br>
+Enunciado: https://www.codewars.com/kata/5266876b8f4bf2da9b000362 <br>
 Código: https://github.com/Flaviodc7/Codewars-katas/tree/master/who-likes-it
 
 [6-kyu] Bit Counting (10/12/2021) <br>
