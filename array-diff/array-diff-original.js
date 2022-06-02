@@ -1,3 +1,5 @@
+// Kata resuelto el 07/12/2021
+
 function arrayDiff(a, b) {
     let result = [];
     let cont = 0;

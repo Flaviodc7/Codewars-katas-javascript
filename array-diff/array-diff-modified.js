@@ -1,3 +1,5 @@
+// Kata modificado el 02/06/2022
+
 function arrayDiff(a, b) {
   let result = [];
   let found = false;
