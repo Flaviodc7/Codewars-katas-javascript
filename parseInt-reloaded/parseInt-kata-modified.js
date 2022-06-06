@@ -1,4 +1,4 @@
-// Kata modificado el 04/06/2022
+// Kata modificado el 06/06/2022
 
 const TWENTY_TO_NINETY = {
   twenty: 20,
@@ -65,4 +65,3 @@ function parseInt(string) {
     });
   return result.reduce((a, b) => a + b);
 }
-parseInt("seven hundred eighty-three thousand nine hundred and nineteen");
