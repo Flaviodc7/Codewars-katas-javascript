@@ -57,7 +57,7 @@ function parseInt(string) {
       } else if (str === "hundred") {
         result[result.length - 1] *= 100;
         // if there's tens or units
-      } else if (str.endsWith("y") && str.split(" ").length === 1) {
+      } else if (str.endsWith("y")) {
         result.push(TWENTY_TO_NINETY[str]);
       } else {
         result.push(ONE_TO_NINETEEN[str]);
