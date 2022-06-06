@@ -1,99 +1,37 @@
 // Kata modificado el 04/06/2022
 
-function ToNumberTwentyToNinety(string) {
-  let result = 0;
-  switch (string) {
-    case "twenty":
-      result = 20;
-      break;
-    case "thirty":
-      result = 30;
-      break;
-    case "forty":
-      result = 40;
-      break;
-    case "fifty":
-      result = 50;
-      break;
-    case "sixty":
-      result = 60;
-      break;
-    case "seventy":
-      result = 70;
-      break;
-    case "eighty":
-      result = 80;
-      break;
-    case "ninety":
-      result = 90;
-      break;
-  }
-  return result;
-}
+const TWENTY_TO_NINETY = {
+  twenty: 20,
+  thirty: 30,
+  forty: 40,
+  fifty: 50,
+  sixty: 60,
+  seventy: 70,
+  eighty: 80,
+  ninety: 90,
+};
 
-function ToNumberOneToNineteen(string) {
-  let result = 0;
-  switch (string) {
-    case "one":
-      result = 1;
-      break;
-    case "two":
-      result = 2;
-      break;
-    case "three":
-      result = 3;
-      break;
-    case "four":
-      result = 4;
-      break;
-    case "five":
-      result = 5;
-      break;
-    case "six":
-      result = 6;
-      break;
-    case "seven":
-      result = 7;
-      break;
-    case "eight":
-      result = 8;
-      break;
-    case "nine":
-      result = 9;
-      break;
-    case "ten":
-      result = 10;
-      break;
-    case "eleven":
-      result = 11;
-      break;
-    case "twelve":
-      result = 12;
-      break;
-    case "thirteen":
-      result = 13;
-      break;
-    case "fourteen":
-      result = 14;
-      break;
-    case "fifteen":
-      result = 15;
-      break;
-    case "sixteen":
-      result = 16;
-      break;
-    case "seventeen":
-      result = 17;
-      break;
-    case "eighteen":
-      result = 18;
-      break;
-    case "nineteen":
-      result = 19;
-      break;
-  }
-  return result;
-}
+const ONE_TO_NINETEEN = {
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5,
+  six: 6,
+  seven: 7,
+  eight: 8,
+  nine: 9,
+  ten: 10,
+  eleven: 11,
+  twelve: 12,
+  thirteen: 13,
+  fourteen: 14,
+  fifteen: 15,
+  sixteen: 16,
+  seventeen: 17,
+  eighteen: 18,
+  nineteen: 19,
+};
 
 function parseInt(string) {
   let result = [];
@@ -105,10 +43,9 @@ function parseInt(string) {
   if (string === "zero") {
     return 0;
   }
-  // eliminating any " and" and "-"
+  // Replacing any " and " and "-" with a space
   string
-    .replace(/ and/gi, "")
-    .replace(/-/gi, " ")
+    .replace(/ and |-/gi, " ")
     .split(" ")
     .map((str) => {
       // if there's thousands
@@ -120,11 +57,12 @@ function parseInt(string) {
       } else if (str === "hundred") {
         result[result.length - 1] *= 100;
         // if there's tens or units
-      } else if (str.split("").pop() === "y" && str.split(" ").length === 1) {
-        result.push(ToNumberTwentyToNinety(str));
+      } else if (str.endsWith("y") && str.split(" ").length === 1) {
+        result.push(TWENTY_TO_NINETY[str]);
       } else {
-        result.push(ToNumberOneToNineteen(str));
+        result.push(ONE_TO_NINETEEN[str]);
       }
     });
   return result.reduce((a, b) => a + b);
 }
+parseInt("seven hundred eighty-three thousand nine hundred and nineteen");
